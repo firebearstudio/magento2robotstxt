@@ -1,0 +1,62 @@
+# Directories & files
+Disallow: /wishlist/
+Disallow: /customer/
+Disallow: /checkout/
+Disallow: /catalogsearch/
+Disallow: /downloader/ 
+Disallow: /braintree/
+Disallow: /order/
+Disallow: /rma/
+Disallow: /sendfriend/
+Disallow: /returns/
+Disallow: /index.php/
+Disallow: /sales/
+Disallow: /review/
+Disallow: /invitation/
+Disallow: /newsletter/
+Disallow: /install/
+Disallow: /var/
+Disallow: /private/
+Disallow: /admin/ 
+Disallow: /api/  
+Disallow: /app/ 
+Disallow: /lib/ 
+Disallow: /includes/ 
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /STATUS.txt
+Disallow: /cron.php
+Disallow: /cron.sh
+Disallow: /error_log 
+
+# Parameters
+Disallow: /*?cat=
+Disallow: /*&cat=
+Disallow: /*?carrier=
+Disallow: /*&carrier=
+Disallow: /*?color_filter=
+Disallow: /*&color_filter=
+Disallow: /*?display_size=
+Disallow: /*&display_size=
+Disallow: /*?network=
+Disallow: /*&network=
+Disallow: /*?os=
+Disallow: /*&os=
+Disallow: /*?price=
+Disallow: /*&price=
+Disallow: /*?timestamp=
+Disallow: /*&timestamp=
+Disallow: /*?___store=
+Disallow: /*?SID=
+Disallow: /*?___SID=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?top_seller=
+Disallow: /*&top_seller=
+Disallow: /pkginfo/
+
+# Allow pagination 
+Allow: /*?p= 
+
+
